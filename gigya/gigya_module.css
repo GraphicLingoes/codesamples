@@ -1,0 +1,241 @@
+#gigya_wrapper{
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	background: none repeat scroll 0 0 #272727;
+	padding:21px 9px 9px 9px;
+	text-align:center;
+	color:#FFF;
+}
+
+#gigya_wrapper .gigya_input {
+	margin-top:3px;
+	margin-bottom:8px;
+	padding: 4px;
+	width: 175px;
+	height: 21px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+	box-shadow: rgba(0,0,0,.5) 0 1px 4px inset;
+	color:#666666;
+	background: #ededed;
+}
+
+#gigya_wrapper *:focus {
+  border: 1px solid #fe852b;
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#gigya_wrapper h1 {
+	color: white;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 5px 0 10px;	
+}
+
+#gigya_pop_closeX {
+	clear:both;
+	margin-top:9px;
+	color:#FFF;
+	width: 100%;
+	height:20px;
+	font-size: 12px;
+}
+
+#gigya_pop_closeX a:link {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#gigya_pop_closeX a:visited {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#gigya_pop_closeX a:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#gigya_pop_closeX a:active {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.gigya_or_divide {
+	clear:both;
+	padding:3px;
+	width: 100%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ccc;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.gigya_login_btn {
+	margin-top: 6px;
+	padding-bottom:5px;
+	background: url('/common/global_images/gigya_bt_login.png') no-repeat scroll 0 0 transparent;
+	width:74px;
+	height:25px;
+	border:none;
+	font-size:12px;
+	cursor:pointer;cursor:hand;
+}
+
+.gigya_create_btn {
+	margin-top: 6px;
+	padding-bottom:5px;
+	background: url('/common/global_images/gigya_bt_register.png') no-repeat scroll 0 0 transparent;
+	width:94px;
+	height:25px;
+	border:none;
+	font-size:12px;
+	cursor:pointer;cursor:hand;
+	color:#FFF;
+}
+
+#gigya_hdr_div {
+	clear:both;
+	padding: 0px 0px 12px 0px;
+	width:300px;
+	text-align:left;	
+}
+
+#gigya_hdr_div_reg {
+	clear:both;
+	padding: 0px 0px 12px 0px;
+	width:400px;
+	text-align:left;	
+}
+
+#gigya_link_left {
+	float:left;
+	padding: 9px 12px 9px 0px;
+	width: 185px;
+}
+
+#gigya_act_right {
+	float:left;
+	padding: 9px 0px 9px 12px;
+	width:185px;
+	border-left: 4px solid #333;	
+}
+
+#gigya_return_blurb {
+	clear:both;
+	width:360px;
+	height:55px;
+	padding:12px 0px 0px 19px;	
+}
+#gigya_return_blurb_reg {
+	clear:both;
+	width:385px;
+	height:55px;
+	padding:12px 0px 0px 19px;
+	text-align:left;	
+}
+.gigya_left_label {
+	float:left;
+	width:195px;
+	height:16px;
+	padding: 3px 0px 3px 0px;
+	text-align:left;
+}
+
+.gigya_right_label {
+	float:left;
+	width:175px;
+	height:16px;
+	padding: 3px 0px 3px 0px;
+	text-align:left;
+}
+
+.gigya_left_field {
+	float:left;
+	padding: 3px 0px 3px 0px;
+	width:195px;
+	text-align:left;
+}
+
+.gigya_right_field {
+	float:left;
+	padding: 3px 0px 3px 0px;
+	width:175px;
+	text-align:left;
+}
+
+#gigya_reg_left {
+	float:left;
+	width:165px;
+	padding-left:25px;
+	text-align:left;
+}
+
+#gigya_reg_right {
+	float:left;
+	padding:0px 0px 0px 35px;
+	width:400px;
+	border-left:4px solid #333;
+}
+
+#gigyaReturnRegDiv {
+	padding-left:19px;
+	width: 400px;	
+}
+
+#gigyaRestPW {
+	margin-top: 9px;
+	width:auto;
+	height:auto;	
+}
+
+#gigyaRestPW a:link {
+	color: #fff;
+	text-decoration:underline;	
+}
+
+#gigyaRestPW a:visited {
+	color: #fff;
+	text-decoration:underline;	
+}
+
+#gigyaRestPW a:hover {
+	color: #ccc;
+	text-decoration:none;	
+}
+
+#gigyaRestPW a:active {
+	color: #fff;
+	text-decoration:underline;	
+}
+
+#gigya_link_blurb a:link {
+	color: #fff;	
+}
+
+#gigya_link_blurb a:visited {
+	color: #fff;	
+}
+
+#gigya_link_blurb a:hover{
+	color: #ccc;	
+}
+
+#gigya_link_blurb a:active {
+	color: #fff;	
+}

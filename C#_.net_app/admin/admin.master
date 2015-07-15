@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin_admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>LeonardoMD Training Portal</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="../jquery/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../jquery/popUpWindow.js"></script>
+    <script type="text/javascript" src="../jquery/hideBoxes.js"></script>
+</head>
+<asp:ContentPlaceHolder id="bodyClass" runat="server">
+</asp:ContentPlaceHolder>
+    <form id="form1" runat="server">
+<!-- Header -->
+<div id="header-bar">
+    <div id="headerBarContainer">
+        <div style="float: left;">
+            <a href="../newDashboard.aspx" title="LeonardoMD"><img src="../Images/brand/lmdLogo.png" width="184" height="59" border="0" alt="LeonardoMD" title="LeonardoMD Video Portal" /></a>
+        </div>
+        <div style="float:right; margin: 15px 18px 0px 0px;">
+            <div style="float:left; margin-top: 8px; margin-left"><asp:Label ID="userInfoFirstName" runat="server" />&nbsp;<asp:Label ID="userInfoLastName" runat="server" /></div>
+            <div style="float:left; width: 32px; height: 32px;"><asp:ImageButton ID="signOutButton" runat="server" ImageUrl="../Images/exit_32.png" ToolTip="Sign Out" onclick="signOutAdmin" /></div><div style="float:left; margin-top: 8px; margin-left"><a href="../help/help.aspx" name="launchHelp">Help</a> | <asp:LinkButton ID="logout" runat="server" Text="Sign Out" onclick="signOutAdmin" />
+            <atk:ConfirmButtonExtender ID="cbeSignOutImage" runat="server"
+            TargetControlID="signOutButton" ConfirmText="Are you sure you wish to sign out?" />
+            <atk:ConfirmButtonExtender ID="cbeSignOut" runat="server"
+            TargetControlID="logout" ConfirmText="Are you sure you wish to sign out?" />
+            </div>
+        </div>
+    </div>
+<!-- / Header -->
+</div>
+    <!-- Ribbon Bar -->
+    <div id="ribbon">
+        <ul>
+            <li class="home"><a href="../newDashboard.aspx"><img src="../Images/ribbon/home_48.png" alt="Home" title="Home" width="48" height="48" /><br /><div align="center" style="width: 48px;">Home</div></a></li>
+            <li class="videos"><a href="../memberVideos.aspx"><img src="../Images/ribbon/ribbon-videos.png" alt="Videos" title="Videos" width="48" height="48" /><br /><div align="center" style="width: 48px;">Videos</div></a></li>
+            <li class="search"><a href="../search.aspx"><img src="../Images/ribbon/search_48.png" alt="Search Videos" title="Search Videos" width="48" height="48" /><br /><div align="center" style="width: 48px;">Search</div></a></li>
+            <li class="downloads"><a href="../downloads.aspx"><img src="../Images/ribbon/folder_48.png" alt="Downloads" title="Download Training" width="48" height="48" /><br /><div align="center" style="margin-left: -7px; width: 48px;">Downloads</div></a></li>
+            <li id="adminMenu" runat="server" class="admin"><a href="../admin/"><img src="../Images/ribbon/spanner_48.png" alt="Admin" title="Admin" width="48" height="48" /><br /><div align="center" style="margin-left: -7px; width: 48px;">Admin</div></a></li>
+        </ul>
+    <!-- / Ribbon bar -->
+    </div>
+     <!-- Start Mini Ribbon Secondary Menu -->
+    <div id="miniRibbon">
+        <div id="miniRibbonIcons">
+            <div class="miniRibbonImg"><asp:ImageButton ID="membersIB" ImageUrl="../Images/admin/users_two_32.png" runat="server" onclick="clickMembers" ToolTip="Members List" /></div>
+            <div class="miniRibbonTxt"><asp:LinkButton ID="membersLB" runat="server" Text="Members" onclick="clickMembers" /></div>
+            <div class="miniRibbonImg"><asp:ImageButton ID="videosIB" ImageUrl="../Images/admin/ribbon-videos_32.png" runat="server" onclick="clickVideos" ToolTip="Videos" /></div>
+            <div class="miniRibbonTxt"><asp:LinkButton ID="videosLB" runat="server" Text="Videos" onclick="clickVideos" /></div>
+            <div class="miniRibbonImg"><asp:ImageButton ID="helpPagesIB" ImageUrl="../Images/admin/imp_steps_32.png" runat="server" onclick="clickHelpAdmin" ToolTip="Implementation Steps" /></div>
+            <div class="miniRibbonTxt"><asp:LinkButton ID="helpPagesLB" runat="server" Text="Help Pages" onclick="clickHelpAdmin" /></div>
+            <div class="miniRibbonImg"><asp:ImageButton ID="recVidsIB" ImageUrl="../Images/admin/recVidModule_32.png" runat="server" onclick="clickRecVids" ToolTip="Recommended Videos" /></div>
+            <div class="miniRibbonTxt"><asp:LinkButton ID="recVidsLB" runat="server" Text="Templates" onclick="clickRecVids" /></div>
+            <div class="miniRibbonImg"><asp:ImageButton ID="searchIB" ImageUrl="../Images/admin/search_32.png" runat="server" onclick="clickSearch" ToolTip="Search" /></div>
+            <div class="miniRibbonTxt"><asp:LinkButton ID="searchLB" runat="server" Text="Search" onclick="clickSearch" /></div>
+        </div>
+    </div>
+    <!-- / Mini Ribbon Secondary Menu -->
+    </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

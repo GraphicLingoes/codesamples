@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="help.master.cs" Inherits="help_help" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>LeonardoMD Training Portal</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="../jquery/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../jquery/hideBoxes.js"></script>
+    <script type="text/javascript" src="../jquery/helpGlossary.js"></script>
+</head>
+<asp:ContentPlaceHolder id="bodyClass" runat="server">
+</asp:ContentPlaceHolder>
+    <form id="form1" runat="server">
+<!-- Header -->
+<div id="header-bar">
+    <div id="headerBarContainer">
+        <div style="float: left;">
+            <img src="../Images/brand/lmdLogo.png" width="184" height="59" border="0" alt="LeonardoMD" title="LeonardoMD Video Portal" />
+        </div>
+        <div style="float:right; margin: 15px 18px 0px 0px;">
+            <div style="float:left; margin-top: 8px; margin-left">Help Glossary</div>
+        </div>
+    </div>
+<!-- / Header -->
+</div>
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

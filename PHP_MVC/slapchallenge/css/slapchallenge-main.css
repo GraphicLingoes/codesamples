@@ -1,0 +1,144 @@
+/*dropzilla.net*/
+#header-controls {
+	padding: 12px;
+	margin-bottom: 25px;
+	height:  242px;
+	width: 100%;
+	background: #ededed;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	-moz-border-bottom-right-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	overflow: hidden;
+}
+.header-controls-toggle-top {
+	margin: -6px auto 6px auto;
+	width: 40px;
+	height: 30px;
+	display: none;
+}
+#header-controls-main {
+	float: left;
+	display: block;
+	margin-bottom: 6px;
+	height: 212px;
+	width: 100%;
+}
+.header-controls-toggle-btm {
+	margin: 0 auto;
+	width: 40px;
+	height: 30px;
+	display: block;
+}
+.btn {
+	margin-bottom: 10px;
+}
+#header-controls input[type="text"] {
+	width: 141px;
+}
+
+#header-controls select {
+	width: 141px;
+}
+
+#panelSection {
+	float: left;
+	padding: 0px 15px 0px 15px;
+	width: auto;
+	min-height: 212px;
+	border-right:1px solid #ccc;
+	border-left: 1px solid #fff;
+}
+
+#panelSection:nth-child(1) {
+	border-left: none;
+}
+
+#panelSection:nth-child(4) {
+	border-right: none
+}
+
+/* Default drozillaStage styles */
+#drozillaStage ul {
+	list-style-type: none;
+}
+
+.liFloatLeft { float:left; }
+
+.liNoFloatleft {}
+
+/*************************
+** Panel 1 padding styles
+**************************/
+#header-controls #paddingMarginWrapper { margin-top: 9px;width: 100%; }
+#header-controls .dzPaddingOptions { width: 100% }
+#header-controls .dzPaddingOptions input[type="text"] {
+	width: 21px;
+}
+
+.dzPaddingOptionsA {
+	float:left;
+}
+
+.dzPaddingOptionsB {
+	float:left;
+	display: none;
+}
+
+.dzPaddingAddSpan {
+	float:left;
+	width: 45px;
+
+}
+.dzPaddingSpacer {
+	float:left;
+	width: 100%;
+	height: 1px;
+}
+/*************************
+** Panel 1 margin styles
+**************************/
+#header-controls .dzMarginOptions { width: 100%; height: 63px; }
+#header-controls .dzMarginOptions input[type="text"] {
+	width: 21px;
+}
+
+.dzMarginOptionsA {
+	float:left;
+}
+
+.dzMarginOptionsB {
+	float:left;
+	display: none;
+}
+
+.dzMarginAddSpan {
+	float:left;
+	width: 45px;
+
+}
+/*************************
+** Panel 1 border styles
+**************************/
+#header-controls .dzBorderOptions { width: 100% }
+#header-controls .dzBorderOptions input[type="text"] {
+	width: 21px;
+}
+
+.dzBorderOptionsA {
+	float:left;
+}
+
+.dzBorderOptionsB {
+	float:left;
+	display: none;
+}
+
+.dzBorderAddSpan {
+	float:left;
+	width: 45px;
+
+}

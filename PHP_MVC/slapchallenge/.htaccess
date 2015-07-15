@@ -1,0 +1,10 @@
+RewriteEngine On
+## protect hidden files from being seen
+<Files .*>
+	Order Deny,Allow
+	Deny From All
+</Files>
+## set up rewrite condition
+RewriteRule ^api/.* /app/api/index.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule !\.(js|ico|gif|jpg|png|css)$ /index.php [L]

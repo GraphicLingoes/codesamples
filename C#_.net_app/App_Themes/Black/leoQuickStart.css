@@ -1,0 +1,1104 @@
+﻿body 
+{
+    margin: 0 0 0 0;
+    padding: 0;
+    background-color:#F5F5F5;
+    background-image: url("../../Images/brand/headerGradient.jpg");
+    background-repeat: repeat-x;
+    background-position:left top;
+    color: #706F6D;
+    font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size: 70%;
+}
+
+#helpBody 
+{
+	background-image: none;
+}
+
+h1 
+{
+	font-size: 18px;  
+	color:#666666;
+}
+
+h2 
+{
+	clear:both;
+	margin: 6px 0 6px 0;
+	font-size: 110%;
+	color:#006666;
+}
+	
+h3 
+{
+    margin: 6px 0 6px 0;
+    font-size: 150%;
+    font-weight: normal;
+    color:#873D13;
+}
+h4 {
+	margin: 6px 0 6px 0;
+	font-size: 103%;
+	font-weight: normal;
+	}
+	
+hr {
+	border: solid 2px #ededed;
+	}
+
+img 
+{
+	border: none;
+	}
+#Menu 
+{
+    float:left;
+    margin: 18px 0 0 0;
+    height: 50px;
+    width: 500px;
+}
+
+.hide 
+{
+	visibility: hidden;
+	}
+	/* Admin pages secondary menus */
+.MenuSP
+{
+    float:left;
+    margin: 0px 0px 0px 0px;
+}
+/*Login Classes*/
+#LoginBox 
+{
+	margin: 60px auto 0px auto;
+	padding:42px 42px 42px 34px;
+	width: 205px;
+	height: 337px;
+	background: url("../../Images/signInBkgrd.png") no-repeat top left;
+	color:#333333;
+	}
+
+.signInMain 
+{
+	padding: 6px;
+	margin-bottom: 3px;
+	width: 160px;
+	border: 3px solid #666666;
+	background: #EDEDED;
+	color: #333333;
+}
+	
+.signInTitles
+{
+	margin: 0px 0px 10px 0px;
+}
+/*Member Dashboard UL Styles*/
+
+/* Ribbon Styles */
+#header-bar 
+{
+	position: fixed;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	background-image: url("../../Images/brand/headerGradient.jpg");
+    background-repeat: repeat-x;
+    background-position:left top;
+	height: 60px;
+	width: 100%;
+}
+#headerBarContainer 
+{
+	padding-right: 21px;
+}
+#ribbon 
+{
+	position: fixed;
+	float: left;
+	margin: 60px 0px 0px 0px;
+	background: url("../../Images/ribbon/ribbon-bkgrd.jpg") repeat-x top left;
+	height: 84px;
+	width: 100%;	
+}
+
+#ribbon .img 
+{
+	border: none;
+}
+
+#ribbon ul 
+{
+	margin-top: 2px;
+	list-style-type: none;
+}
+
+#ribbon li 
+{
+	float: left;
+	display: inline-block;
+	width: 85px;
+	height: 84px;
+	background: url("../../Images/ribbon/ribbon-seperatorLine.gif") no-repeat top right;	
+}
+
+#ribbon li a
+{
+	display: block;
+	padding: 11px 17px 0px 19px;
+	width: 48px;
+	height: 73px;
+}
+
+#ribbon li a:hover
+{
+	background: url("../../Images/ribbon/ribbon-bkgrd-hover.jpg") no-repeat top left;
+}
+
+#home #ribbon .home a,
+#videos #ribbon .videos a,
+#search #ribbon .search a,
+#downloads #ribbon .downloads a,
+#admin #ribbon .admin a {
+ 
+	background: url("../../Images/ribbon/ribbon-bkgrd-hover.jpg") no-repeat top left;
+}
+
+/* Mini Ribbon Styles */
+#miniRibbon 
+{
+	position: fixed;
+	float: left;
+	margin: 144px 0px 0px 0px;
+	padding: 0px;
+	height: 49px;
+	width: 100%;
+	background: #000 url("../../Images/miniRibbon/miniRibbonBkgrd.jpg") repeat-x top left;
+}
+#miniRibbonHelp
+{
+	position: fixed;
+	float: left;
+	margin: 60px 0px 0px 0px;
+	padding: 0px;
+	height: 49px;
+	width: 100%;
+	background: #000 url("../../Images/miniRibbon/miniRibbonBkgrd.jpg") repeat-x top left;
+}
+
+#miniRibbonAdjust 
+{	
+	margin-top: -3px;
+}
+#miniRibbonIcons 
+{
+	margin: 8px 0px 0px 54px;
+	height: 32px;
+	color: #fff;	
+}
+
+#miniRibbonIcons .miniRibbonImg 
+{
+	float:left;
+	margin: 0px;
+	padding: 0px;
+	width: 32px;
+	height: 32px;
+}
+
+#miniRibbonIcons .miniRibbonTxt 
+{
+	float: left;
+	margin: 6px 24px 0px 9px;
+	height: 15px;
+	color: #fff;
+}
+
+#miniRibbonIcons .miniRibbonTxt a:link 
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#miniRibbonIcons .miniRibbonTxt a:visited 
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#miniRibbonIcons .miniRibbonTxt a:hover 
+{
+	color: #fff;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+#miniRibbonIcons .miniRibbonTxt a:active 
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* Page Wrapper and main page styles */
+#pageWrapper 
+{
+	float: left;
+	margin: 193px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+#pageWrapperHelp
+{
+	float: left;
+	margin: 33px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+}
+#pageWrapperHelpGlossary
+{
+	margin: 0px 0px 0px 0px;
+	padding: 109px 0px 0px 0px;
+	width: 100%;
+}
+#pageHelpGlossary
+{
+	display: block;
+	margin: 0px 54px 12px 37px;
+}
+
+*:first-child+html #pageHelpGlossary
+{
+	display: block;
+	margin: 0px 54px 12px 0px;
+}
+
+#pageHelp
+{
+	display: block;
+	margin: 49px 54px 12px 54px;
+}
+#pageHelpLeftDiv 
+{
+	float: left;
+	margin:0px 0px 0px 0px;
+	padding-right: 21px;
+	width: 160px;
+}
+
+*:first-child+html #pageHelpLeftDiv 
+{
+	float: left;
+	margin:0px 0px 0px 0px;
+	padding-right: 21px;
+	width: 200px;
+}
+#pageHelpRightDiv 
+{
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 15px;
+	width: 63%;
+	min-height: 500px;
+	background: url("../../Images/help/bkgrdHelpTopicMenuSide.gif") repeat-y top left;
+}
+#page 
+{
+	display: block;
+	margin: 49px 54px 12px 54px;
+}
+
+.dashboard {
+    float: left;
+}
+
+.dashboardBottom {
+  clear: left;
+  margin: 15px 0px 0px 0px;
+}
+
+.dashboard ul 
+{
+		margin: 0px 0px 12px 0px;
+		padding: 0;
+		/*width: 100%;*/
+		background-color:#FFFFFF;
+		background-image: url("../../Images/memberDashBkrd.jpg");
+		background-repeat: repeat-x;
+		background-position: left top;
+		list-style: none;
+		float: left;
+		border-bottom: solid 9px #cccccc;
+}
+.dashboard ul li 
+{
+	float: left;
+}
+.dashboard li a {
+	float: left;
+	display: block;
+	padding: 2.0em 1.0em 0 2.0em;
+	width: 200px;
+	height: 125px;
+	line-height: 15px;
+	text-decoration: none;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	}
+.dashboard ul li a:hover 
+{
+    text-decoration: none;
+    background-color:#E1EBED;
+    background: #E5E5E5 url("../../Images/updateMemberBkrd.jpg") repeat-x top left;
+}
+/*mainNav Ul and li styles*/
+.MenuSP ul 
+{
+	margin: 0 0 0 21px;
+	padding: 0;
+	list-style-type: none;
+}
+.MenuSP ul a 
+{
+	display: inline;
+	width: 119px;
+	height: 33px;
+	line-height: 33px;
+	padding: 6px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #A7C4C8;
+	background-color: #EDEDED;
+	text-align: center;
+	color:#006666;
+	}
+.MenuSP ul a:hover, .selected a 
+{
+	padding:6px;
+	background: #E1EBED;
+	color: #006666;
+	}
+.MenuSP li 
+{
+	display: inline; /* :KLUDGE: Removes large gaps in IE/Win */
+}
+
+#addNewVid .MenuSP .addNewVid a,
+#videoSelected .MenuSP .videoSelected a,
+#catSelected .MenuSP .catSelected a,
+#edSelected .MenuSP .edSelected a,
+#authSelected .MenuSP .authSelecte d a,
+#memberSearch .MenuSP .memberSearch a,
+#memberList .MenuSP .memberList a { 
+padding: 6px;
+background: #E1EBED;
+color: #006666;
+}
+.dropdownmenu
+{
+	padding: 6px;
+	background: #EDEDED;
+	border: solid 3px #666666;
+	color: #333333;
+	}
+	/*.dropdownmenu
+{
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding: 2px;
+	background: #EDEDED;
+	border-top: solid 2px #999999;
+	border-right: solid 1px #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+	border-left: solid 2px #999999;
+	color: #000000;
+	}*/
+.success {
+	padding: 30px 30px 30px 75px;
+	margin: 6px 0px 6px 0px;
+	background:#EBFFD7 url("../../Images/accepted_48.png") no-repeat 15px 15px;
+	color:#669933;
+	border: 3px solid #669933;
+	font-size: 15px;
+	}
+.successWide {
+	padding: 9px 9px 9px 30px;
+	margin: 6px 0px 6px 0px;
+	background:#EBFFD7 url("../../Images/greenCheck.jpg") no-repeat 5px 5px;
+	color:#669933;
+	border: 1px solid #669933;
+	}
+.welcomeMsg {
+	padding: 9px 9px 9px 9px;
+	margin: 6px 0px 6px 0px;
+	background:#EBFFD7;
+	color:#669933;
+	border:.1px solid #669933;
+	}
+.errorMessage 
+{
+	padding: 9px 9px 9px 30px;
+	margin: 6px 0px 6px 0px;
+	width: 160px;
+	background: #FFE1E1 url("../../Images/redAlert.jpg") no-repeat 5px 5px;
+	color:#FF0000;
+	border:.1px solid #FF0000;
+	}
+.errorMessageSearch 
+{
+	padding: 30px 30px 30px 75px;
+	margin: 6px 0px 6px 0px;
+	background:#FFE1E1 url("../../Images/error_48.png") no-repeat 15px 15px;
+	color:#981d05;
+	border: 3px solid #981d05;
+	font-size: 15px;
+	}
+.searchNotice 
+{
+	padding: 30px 30px 30px 75px;
+	margin: 6px 0px 6px 0px;
+	background:#FFFB91 url("../../Images/attention_48.png") no-repeat 15px 15px;
+	color: #9D7A31;
+	border: 3px solid #CFAD66;
+	font-size: 15px;
+	}
+.notice {
+	padding:9px 9px 9px 9px;
+	margin: 6px 0px 6px 0px;
+	background: #E5E5E5 url("../../Images/updateMemberBkrd.jpg") repeat-x top left;
+	color:#666666;
+	border: 1px solid #FFFFFF;
+	}
+.allVidsOff {
+	padding: 9px 9px 9px 9px;
+	margin: 6px 0px 6px 0px;
+	color:#666666;
+	border: 1px solid #FFFFFF;
+	}
+.allVidsOn {
+	padding: 9px 9px 9px 9px;
+	margin: 6px 0px 6px 0px;
+	background:#ededed;
+	color: #666666;
+	border: 1px solid #FFFFFF;
+	}
+	/* default links */
+a:link {
+	text-decoration: none;
+	color: #873E15;
+	}
+a:visited
+{
+	text-decoration: none;
+	color: #873E15;
+}
+a:hover {
+	text-decoration: none;
+	color: #006666;
+}
+a:active {
+	text-decoration: none;
+	color: #999783;
+}
+.TextBoxMain 
+{
+	padding: 2px;
+	width: 150px;
+	border: #A7C4C8 solid 1px;
+	background-color: #FFFFFF;
+	color:#666666;
+}
+.Header 
+{
+	float: left;
+	width: 750px;
+	height: 59px;
+	margin: -12px auto 0 auto;
+	}
+*:first-child+html .Header 
+{
+	float: left;
+	width: 750px;
+	height: 59px;
+	margin: 0 auto 0 auto;
+}
+.Content 
+{
+	margin: 15px auto 0 auto;
+	width: 100%;
+}
+.ContentPopUp
+{
+	margin: 15px auto 0 auto;
+	width:90%;
+}
+.widelabel
+{
+	display: inline-block;
+	width:100px;
+}
+.widelabel2 
+{
+	display: inline-block;
+	width: 65px;
+	margin-bottom: 5px;
+}
+.GridMain 
+{
+	margin: 0px 0px 0px 0px;
+	background-color: #F5F5F5;
+	border: solid #e5e5e5 5px;
+	width: 100%;
+}
+.GridRow 
+{
+	background-color: #F5F5F5;
+	border-bottom: solid 1px #ededed;
+	text-align: left;
+}
+.GridRow td 
+{
+	padding: 9px;
+	border-right: solid 1px #e5e5e5;
+}
+.GridSelectedRow 
+{
+	background-color: #E1EBED;
+	color:#006666;
+	border-bottom: solid 2px #ededed;
+}
+GridSelectedRow tr
+{
+	background-color: #E1EBED;
+	color:#006666;
+	border-bottom: solid 2px #ededed;
+}
+.GridSelectedRow td 
+{
+	padding: 9px;
+}
+.GridHeader 
+{
+	background:#e5e5e5;
+	color:#666666;
+	font-weight: bold;
+	}
+.GridHeader th
+{
+	text-align: left;
+	font-weight: bold;
+}
+.alternateRow 
+{
+	background:#fcfcfc;
+	border-bottom: 1px solid #ededed;
+	
+}
+.alternateRow td 
+{
+	padding: 9px;
+	border-right: 1px solid #e5e5e5;
+}
+.headerPad 
+{
+	padding-top:6px;
+	padding-right: 12px;
+	padding-bottom: 6px;
+	padding-left:6px;
+	font-size:10px;
+	}
+/* Update Member Details Box */
+.updateMemberBox 
+{
+	margin: 15px auto 15px auto;
+	padding: 9px;
+	width: 100%;
+	background: #E5E5E5 url("../../Images/updateMemberBkrd.jpg") repeat-x top left;
+	border: solid 1px #CCCCCC;
+}
+/*User Info Badge*/
+.userInfo 
+{
+	float: left;
+	margin: 30px 0px 0px 6px;
+}
+/* Help Side Pane Styles */
+.help {
+	float: left;
+	margin: 0px 0px 0px 18px;
+	width: 200px;
+	background: #ededed url("../../Images/helpBackground.jpg") no-repeat bottom left;
+	min-height: 238px;
+	border-top: 2px solid #A7C4C8;
+	border-right: 1px solid #A7C4C8;
+	border-bottom: 1px solid #A7C4C8;
+	border-left: 1px solid #A7C4C8;
+	}
+.helpTitle 
+{
+	float:left;
+	padding: 6px;
+	height: 25px;
+	width: 188px;
+	background: #E1EBED;
+	border-bottom: 3px solid #A7C4C8;
+	}
+.helpContent 
+{
+	float:left;
+	padding: 9px 9px 9px 9px;
+}
+/* End Help Side Pane Styles */
+/* Signin page box styles */
+.formBtn
+{
+	padding: 6px;
+	font-family: Verdana;
+	font-size: 12px;
+	color:#EAF4F6;
+	background-color: #63A6BC;
+	border: solid 3px #BFDDE7;
+}
+.formBtn:hover 
+{
+	padding: 6px;
+	font-family: Verdana;
+	font-size: 12px;
+	color:#63A6BC;
+	background-color: #BFDDE7;
+	border: solid 3px #63A6BC;
+}
+.signInBox 
+{
+	float: left;
+	margin-right: 12px;
+	width: 20%;
+	}
+.infoBoxSI
+{
+	float: left;
+	margin-left: 12px;
+	width: 70%;
+	padding:6px 0px 21px 11px;
+}
+.regBox 
+{
+	float: left;
+	margin-top: 3px;
+	min-width: 200px;
+	padding: 6px 18px 15px 18px;
+}
+.regBox2 
+{
+	float: left;
+	margin-top: 3px;
+	padding: 6px 18px 15px 18px;
+	min-height:350px;
+	border-left: 3px solid #ededed;
+}
+.contentBoxTop
+{
+	margin-top: 3px;
+	padding-bottom: 21px;
+	padding-left: 48px;
+}
+.contentBoxBottom
+{
+	margin-top: 3px;
+	padding: 6px;
+}
+.contentBox 
+{
+	position:relative;
+	float: left;
+	margin-top: 12px;
+	width: 50%;
+	padding: 6px 18px 15px 18px;
+	border-right: 1px solid #A7C4C8;
+}
+.contentBox2 {
+	float: left;
+	margin-top: 12px;
+	padding: 6px 18px 15px 18px;
+}
+.contentBox3 {
+	float: left;
+	margin-top: 12px;
+	padding: 6px 18px 15px 18px;
+	border-left: 1px solid #A7C4C8;
+}
+.secretQuesBox 
+{
+	float: left;
+	margin-top: 3px;
+	padding: 6px 18px 15px 18px;
+	min-height: 300px;
+	border-left: 1px solid #A7C4C8;
+}
+.clearBoth 
+{
+	clear:both;
+	height: 3px;
+}
+/* Ajax Control Tool kit Styles */
+.fieldError 
+{
+	background-color: #FFFFCC;
+	color:#333333;
+}
+.ajax__validatorcallout_error_message_cell 
+{
+	color:#333333;
+}
+
+/* Admin container styles */
+#adminWrapper 
+{
+	margin:3px 21px 21px 121px;
+	padding: 9px;
+	width: 85%;
+}
+*:first-child+html #adminWrapper 
+{
+	position: absolute;
+	margin:3px 21px 21px 121px;
+	padding: 9px;
+	width: 85%;
+}
+.singleDiv 
+{
+	position: absolute;
+	margin: 3px 3px 0px 9px;
+	padding: 9px;
+	width: 88px;
+	background: url("../../Images/menuGradient.jpg") repeat-x left bottom;
+}
+.adminMenu 
+{
+	float: left;
+	margin-right:3px;
+	margin-bottom: 3px;
+	padding: 9px;
+	width: 66px;
+	height: 48px;
+	border: 1px solid #A7C4C8;
+	background-color: #EDEDED;
+	text-align: center;
+}
+.adminMenuOn
+{
+	float: left;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	padding: 9px;
+	width: 66px;
+	height: 48px;
+	border: 1px solid #A7C4C8;
+	background-color: #E1EBED;
+	text-align: center;
+}
+.adminMenu img 
+{
+	border: none;
+	margin-bottom: 3px;
+}
+.adminMainContainer
+{
+    float:left;
+    width: 100%;
+}
+.adminMainContainer a:link 
+{
+	text-decoration: none;
+	color: #006666;
+}
+.adminMainContainer a:visited 
+{
+	text-decoration: none;
+	color: #006666;
+}
+.adminMainContainer a:hover 
+{
+	text-decoration: underline;
+	color: #873D13;
+}
+.adminMainContainer a:active 
+{
+	text-decoration: underline;
+}
+/* myImpBox Styles */
+.myImpWrapper 
+{
+	float: left;
+	width: 86%;
+}
+.myImpBox1
+{
+	float:left;
+	clear: left;
+	margin: 6px 6px 6px 6px;
+	padding: 12px 0px 0px 15px;
+}
+.myImpBox2
+{
+	float: left;
+	clear:left;
+	margin: 6px 6px 6px 6px;
+	padding: 12px 0px 0px 15px;
+}
+
+#pageWrapper #page #downloads 
+{
+	font-size: 18px;
+}
+
+#pageWrapper #page #downloads ul 
+{
+	list-style-type: none;
+}
+
+#pageWrapper #page #downloads .odd 
+{
+	background-color:#fcfcfc;
+}
+
+#pageWrapper #page #downloads li a 
+{
+	display:block;
+	padding: 12px 6px 12px 42px;
+	height: 27px;
+	line-height: 26px;
+	text-decoration: none;
+	background: url("../../Images/paper_32.png") no-repeat 6px 12px;
+}
+
+#pageWrapper #page #downloads li a:hover 
+{
+	background: #E1EBED url("../../Images/paper_32Over.png") no-repeat 6px 12px;
+}
+
+#dashboard_Text p
+{
+	margin: 0px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.readOnlyTB 
+{
+	padding: 6px;
+	margin-bottom: 3px;
+	min-width: 225px;
+	height: 18px;
+	border: 3px solid #EDEDED;
+	background: #EDEDED;
+	color: #333333;	
+}
+.greyBkgrdDiv 
+{
+	width: 100%;
+	padding: 12px;
+	background:#eaeaea;
+}
+
+.left 
+{
+	float: left;
+}
+
+.right 
+{
+	float: right;
+}
+.closeBox 
+{
+	float: right;
+	margin-top: -5px;
+}
+
+/* Tertiary Ribbon Bar */
+#tertiaryRibbon 
+{
+	position: fixed;
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	height: 31px;
+	background: url("../../Images/tertiaryRibbon/gradientBkgrd.jpg") repeat-x top left;	
+}
+#tertiaryLinkButtons 
+{
+	position: absolute;
+	margin: 1px 0px 0px 54px;
+}
+
+#tertiaryLinkButtons a:link 
+{
+	float:left;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 12px 0px 12px;
+	color: #666666;
+	font-size: 15px;
+	background: url("../../Images/tertiaryRibbon/lineDivide.gif") no-repeat top right;
+	height: 24px;
+}
+
+#tertiaryLinkButtons a:visited 
+{
+	float: left;
+	display: block;
+	padding: 5px 12px 0px 12px;
+	color: #EDEDED;
+	font-size: 15px;
+	height: 24px;
+}
+
+#tertiaryLinkButtons a:hover 
+{
+	float: left;
+	display: block;
+	padding: 5px 12px 0px 12px;
+	color: #8FA2AF;
+	background: url("../../Images/tertiaryRibbon/gradientBkgrdOn.jpg") repeat-x top left;	
+	font-size: 15px;
+	height: 24px;
+}
+
+#tertiaryLinkButtons a:active 
+{
+	float: left;
+	display: block;
+	padding: 5px 12px 0px 12px;
+	color: #666666;
+	font-size: 15px;
+	height: 24px;
+}
+
+*:first-child+html .tableHdrRepeater
+{
+	padding: 9px 9px 9px 9px;
+	height: 15px;
+	background-color: #FFE1E1;
+	color:#006666; 
+}
+
+html>/**/body .tableHdrRepeater, x:-moz-any-link
+{
+	padding: 9px 9px 9px 9px;
+	background-color: #FFE1E1;
+	color:#006666; 
+}
+
+.tableHdrRepeater
+{
+	padding: 0px 9px 9px 9px;
+	background-color: #FFE1E1;
+	color:#006666; 
+}
+
+*:first-child+html .tableHdrRepeaterComplete
+{
+	padding: 9px 9px 9px 9px;
+	height: 15px;
+	background-color: #E1EBED;
+	color:#006666; 
+}
+html>/**/body .tableHdrRepeaterComplete, x:-moz-any-link
+{
+	padding: 9px 9px 9px 9px; 
+	background-color: #E1EBED;
+	color:#006666; 
+}
+.tableHdrRepeaterComplete
+{
+	padding: 0px 9px 9px 9px; 
+	background-color: #E1EBED;
+	color:#006666; 
+}
+
+.center 
+{
+	text-align: center;
+}
+
+/* Help Topic Unordered List Styles */
+#helpTopicMenu 
+{
+	margin: 0px 0px 0px 0px;
+	width: 200px;
+}
+
+#helpTopicMenu ul 
+{
+	padding: 0px;
+	list-style-type: none;
+	width: 200px;
+}
+
+#helpTopicMenu li 
+{
+	padding-bottom: 9px;
+	width: 181px;
+	list-style-type: none;
+	background: url("../../Images/help/bkgrdHelpTopicMenuBottom.gif") repeat-x bottom left;
+}
+
+#helpTopicMenu li a 
+{
+	display: block;
+	padding: 3px 3px 0px 39px;
+	background: url("../../Images/help/iconBook.png") no-repeat 9px 9px;
+	text-decoration: underline;
+	height: 30px;
+	line-height: 29px;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#helpTopicMenu li a:hover
+{
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* Style sub help topic menus */
+#helpTopicMenu li ul li
+{
+	background: none;
+	padding: 0px;
+	display:none;
+}
+#helpTopicMenu li ul li a
+{
+	background: none;
+	padding: 3px;
+	margin-left: 35px;
+	width: 140px;
+	height: 18px;
+	line-height: 17px;
+	font-size: .9em;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#helpTopicMenu li ul li a:hover
+{
+	font-size: .9em;
+	font-weight: normal;
+	background: #006666;
+	color: #ffffff;
+}
+
+*:first-child+html #helpTopicMenu li ul li a
+{
+	padding: 3px;
+	margin: 0px;
+	width: 135px;
+}
